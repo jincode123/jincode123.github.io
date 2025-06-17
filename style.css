@@ -1,8 +1,12 @@
+:root {
+      --header-font: black;  
+}
+/* Base HTML and Box Sizing */
 html {
      box-sizing: border-box;
      font-size: 16px;
      font-family: "Inter", sans-serif;
-     color: var(--black);
+     color: var(--header-font);
      scroll-behavior: smooth;
  }
 
@@ -12,6 +16,7 @@ html {
      box-sizing: inherit;
  }
 
+ /* Typography Reset */
  h1,
  h2,
  h3,
@@ -35,16 +40,19 @@ html {
      padding: 0;
  }
 
+ /* List Reset */
  ol,
  ul {
      list-style: none;
  }
 
+ /* Image Handling */
  img {
      max-width: 100%;
      height: auto;
  }
 
+ /* Form Element Styling */
  input,
  button,
  textarea,
