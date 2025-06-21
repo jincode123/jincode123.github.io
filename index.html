@@ -7,31 +7,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zen Yoga</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
 </head>
     
     <body>
         <header class="flex space-between padding-large">
-            <img src="img/logo.png" alt="Zen Yoga" class="logo">
+            <img src="img/Yoga logo.png" alt="Yoga logo" class="icon">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Class</a></li>
                     <li><a href="#">Community events</a></li>
-                    <li><a href="#">Retreat</a></li>
+                    <li><a href="#">Meditation Retreat</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section>
-
+            <div>
+            <section class="flex center padding-small full-width">
+                <h1>Welcome to Our Yoga Community Center</h1>
             </section>
+            <section class="padding-large">
+                <h1>Our Yoga Community Center is a heart-centered space where everyone is welcome to experience the benefits of yoga.</h2>
+            </section>
+            </div>
+            <section>
+                <div class="flex space-evenly gap">
+                    <article class="padding-small flex column align-content center">
+                        <div>
+                        <img src="img/Yoga class.png" alt="Yoga class" class="content_img">
+                        </div>
+                        <div class ="padding-small">
+                        <h1>Class</h1>
+                        </div>
+                        <div class="padding-medium">
+                        <p>Step into a calm and supportive space where you can reconnect with your body and mind. Our yoga classes are designed for all levels, offering a balance of gentle movement, mindful breathing, and peaceful relaxation.</p>
+                        </div>
+                        <a href="#" class="button border">Come along</a> 
+                    </article>
+                    <article class="padding-small flex column align-content center">
+                        <div class="flex center">
+                        <img src="img/Community Yoga.png" alt="Community Yoga" class="content_img">
+                        </div>
+                        <div class ="padding-small">
+                        <h1>Community Events</h1>
+                        </div>
+                        <div class="padding-medium">
+                        <p>Come together, move together, and grow together at our special Yoga Community Event. This gathering is a beautiful opportunity to connect with like-minded people in a supportive, peaceful space.</p>
+                        </div>
+                        <a href="#" class="button">Letk's get together</a>
+                    </article>
+                    <article class="padding-small flex column align-content center">
+                        <div class="flex center">   
+                        <img src="img/Meditation.png" alt="Meditaition" class="content_img">
+                        </div>
+                        <div class ="flex center padding-small">
+                        <h1>Meditation Retreat</h1>
+                        </div>
+                        <div class="padding-medium">
+                        <p>Escape the busyness of daily life and immerse yourself in a peaceful retreat designed to nourish your body, mind, and spirit. Our Yoga & Meditation Retreat offers a serene environment where you can slow down, breathe deeply, and reconnect.</p>
+                        </div>
+                        <a href="#" class="button">Join us</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="your-name">Your Name</label>
+                <input type="text" id="your-name">
+                <label for="city">Your City</label>
+                <select name="city-selection" id="city">
+                    <option value="Brisbane">Brisbane</option>
+                    <option value="Perth">Perth</option>
+                    <option value="Moon">The Moon</option>
+                </select>
+                <label for="message">Your Message</label>
+                <textarea name="message-text" id="message" rows="10"></textarea>
+                <input type="submit" value="Submit" class="button">
+            </form>
+        </section>
+        
         </main>
 
-        <footer>
-
-        </footer>
+    <footer>
+        <div class="flex center">
+            <a href="#" class="padding-small">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="padding-small">
+                <i class="fa-brands fa-slack"></i>
+            </a>
+            <a href="#" class="padding-small">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>    
+        <div class="copyright-bar"><p>&copy; Thanks to everyone for your kind help and great support in creating my first webpage!</p>
+        </div>
+    </footer>
 
     </body>
 </html>    

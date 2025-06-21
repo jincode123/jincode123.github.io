@@ -52,10 +52,91 @@ html {
      height: auto;
  }
 
+ .icon{
+    max-height: 100px;
+    width:auto;
+}
+
+ .content_img{
+    height: 200px;
+    width: 200px;
+}
+
  /* Form Element Styling */
  input,
  button,
  textarea,
  select {
      font: inherit;
+ }
+
+ article{
+    background-color: orange;
+    border-radius: 100px;
+    height: 400px;
+    width: 1000px;
+}
+
+  /* Padding */
+
+  .padding-small{
+    padding: 10px;
+}
+
+.padding-medium{
+    padding: 16px;
+}
+
+.padding-large{
+    padding:32px;
+}
+
+.padding-xl{
+    padding: 64px;
+}
+
+.gap {
+    gap: 5px;
+}
+
+.my-box {
+    border: 10px  /* thickness, style, color */
+    padding: 5px;           /* optional: space inside the border */
+    margin: 2px;            /* optional: space outside the border */
+}
+/* Content Layout */
+.flex{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+.column{
+    flex-direction: column;
+}
+
+.align-content{
+    align-items: center;
+}
+
+
+.button {
+     background-color: white;
+     color: black;
+ }
+
+  .copyright-bar{
+    background-color:orange;
+    color:black;
+    text-align:center;
  }
