@@ -13,31 +13,40 @@
 </head>
     
     <body>
-        <header class="flex space-between padding-large">
+<!-- heading section -->
+        <header class="flex space-between header-flex padding-xl">
             <img src="img/Yoga logo.png" alt="Yoga logo" class="icon">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="second.html">About</a></li>
-                    <li><a href="#">Class</a></li>
-                    <li><a href="#">Community events</a></li>
-                    <li><a href="#">Meditation Retreat</a></li>
-                </ul>
-            </nav>
+            
+            <div class="menu-container padding-small">
+                <div class="hamburger">&#9776;</div> 
+                <nav class="nav-menu" id="navMenu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="second.html">About</a></li>
+                        <li><a href="#">Class</a></li>
+                        <li><a href="#">Community events</a></li>
+                        <li><a href="#">Meditation Retreat</a></li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+            <div class="hamburger" id="hamburger">&#9776;</div> <!-- ☰ icon -->
+            </div>
         </header>
 
         <main>
+<!-- <First section             -->
             <div>
                 <section class="flex center padding-small full-width">
                     <h1>Welcome to Our Yoga Community Center</h1>
                 </section>
-                <section class="padding-large flex center">
+                <section class="padding-xl flex center">
                     <h3>Our Yoga Community Center is a heart-centered space where everyone is welcome to experience the benefits of yoga.</h2>
                 </section>
             </div>
-
+<!-- Article section -->
             <section>
-                <div class="flex space-evenly gap">
+                <div class="flex space-evenly gap article-container">
                     <article class="padding-small flex column align-content center">
                             <div>
                                 <img src="img/Yoga class.png" alt="Yoga class" class="content_img">
@@ -76,28 +85,45 @@
                     </article>
                 </div>
             </section>
+<!-- Form Section -->
+            <section class="form-section">
+                <h2>Contact Us</h2>
+                <form action="https://formspree.io/f/xeoklrzy" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+        
+                     <div class="form-group">
+                        <label for="contact-method">Contact Method:</label>
+                        <select name="contact-selection" id="contact-method" required>
+                            <option value="">Select contact method</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </div>
 
-            <section class="contact flex center" id="contact">
-                <div class="flex center">
-                    <h2>Get in Touch</h2>
-                </div>
-                
-                <form class="flex column">
-                    <label for="your-name">Your Name</label>
-                    <input type="text" id="your-name">
-                    <label for="contact">Your City</label>
-                    <select name="contact-selection" id="city">
-                    <option value="email">email</option>
-                    <option value="phone">phone</option>
-                    </select>
-                <label for="message">Your Message</label>
-                <textarea name="message-text" id="message" rows="10"></textarea>
-                <input type="submit" value="Submit" class="button">
+                    <div class="form-group">
+                        <label for="email">Email (if selected):</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone (if selected):</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+        
+                    <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                    </div>
+        
+                    <button type="submit">Send</button>
                 </form>
             </section>
 
         </main>
-
+<!-- Footer section -->
     <footer>
         <div class="flex center">
             <a href="#" class="padding-small">
