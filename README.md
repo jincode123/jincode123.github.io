@@ -7,20 +7,20 @@
 ## Project Requirements
 
 ### Content
- Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+ Logo, form and Hamburger Menu are added. What aesthetic and technical choices did you make? 
+- [+] At least one profile picture
+- [+] Biography (at least 100 words)
+- [+] Functional Contact Form
+- [+] "Projects" section
+- [+] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
- Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+ Media Query is added (WIP to be improved). About page is created and linked to the Menu. What strategies or design decisions did you work from? 
+- [+] At least 2 web pages.
+- [+] Version controlled with Git
+- [+] Deployed on GitHub pages.
+- [+] Implements responsive design principles.
+- [+] Uses semantic HTML.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
