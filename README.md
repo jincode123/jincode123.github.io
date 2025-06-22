@@ -7,7 +7,7 @@
 ## Project Requirements
 
 ### Content
- Logo, hamburger Menu, and form are added. What aesthetic and technical choices did you make? 
+ Logo, form and Hamburger Menu are added. What aesthetic and technical choices did you make? 
 - [+] At least one profile picture
 - [+] Biography (at least 100 words)
 - [+] Functional Contact Form
@@ -15,7 +15,7 @@
 - [+] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
- About webpage is linked to the hamburger Menu and Media Query is added (working in progress). What strategies or design decisions did you work from? 
+ Media Query is added (WIP to be improved). About page is created and linked to the Menu. What strategies or design decisions did you work from? 
 - [+] At least 2 web pages.
 - [+] Version controlled with Git
 - [+] Deployed on GitHub pages.
