@@ -15,7 +15,7 @@
 - [+] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
- Media Query is added (WIP to be improved). About page is created and linked to the Menu. What strategies or design decisions did you work from? 
+ Media Query is added (WIP to be improved soon). About page is created and linked to the Menu. What strategies or design decisions did you work from? 
 - [+] At least 2 web pages.
 - [+] Version controlled with Git
 - [+] Deployed on GitHub pages.
